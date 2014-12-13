@@ -1,0 +1,145 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-requirejs-jasmine-karma' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'generator-requirejs-jasmine-karma', null ]
+5 verbose cache add name=undefined spec="generator-requirejs-jasmine-karma" args=["generator-requirejs-jasmine-karma",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-requirejs-jasmine-karma',
+6 verbose parsed url   path: 'generator-requirejs-jasmine-karma',
+6 verbose parsed url   href: 'generator-requirejs-jasmine-karma' }
+7 silly lockFile d53fb91b-enerator-requirejs-jasmine-karma generator-requirejs-jasmine-karma
+8 verbose lock generator-requirejs-jasmine-karma /Users/cybind/.npm/d53fb91b-enerator-requirejs-jasmine-karma.lock
+9 silly lockFile d53fb91b-enerator-requirejs-jasmine-karma generator-requirejs-jasmine-karma
+10 silly lockFile d53fb91b-enerator-requirejs-jasmine-karma generator-requirejs-jasmine-karma
+11 verbose addNamed [ 'generator-requirejs-jasmine-karma', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c681dc45-enerator-requirejs-jasmine-karma generator-requirejs-jasmine-karma@
+14 verbose lock generator-requirejs-jasmine-karma@ /Users/cybind/.npm/c681dc45-enerator-requirejs-jasmine-karma.lock
+15 silly addNameRange { name: 'generator-requirejs-jasmine-karma',
+15 silly addNameRange   range: '*',
+15 silly addNameRange   hasData: false }
+16 verbose request where is /generator-requirejs-jasmine-karma
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 6e5f8cfb2c2c17cf
+19 verbose url raw /generator-requirejs-jasmine-karma
+20 verbose url resolving [ 'https://registry.npmjs.org/',
+20 verbose url resolving   './generator-requirejs-jasmine-karma' ]
+21 verbose url resolved https://registry.npmjs.org/generator-requirejs-jasmine-karma
+22 verbose request where is https://registry.npmjs.org/generator-requirejs-jasmine-karma
+23 info trying registry request attempt 1 at 23:56:44
+24 verbose etag "2A0QUA4AGQXU6XJRG98M2D95Y"
+25 http GET https://registry.npmjs.org/generator-requirejs-jasmine-karma
+26 http 304 https://registry.npmjs.org/generator-requirejs-jasmine-karma
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Tue, 09 Dec 2014 21:56:45 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Tue, 09 Dec 2014 21:56:45 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"2A0QUA4AGQXU6XJRG98M2D95Y"',
+27 silly registry.get     age: '27',
+27 silly registry.get     'x-served-by': 'cache-fra1232-FRA',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1418162205.066732,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/generator-requirejs-jasmine-karma from cache
+29 silly addNameRange number 2 { name: 'generator-requirejs-jasmine-karma',
+29 silly addNameRange   range: '*',
+29 silly addNameRange   hasData: true }
+30 silly addNameRange versions [ 'generator-requirejs-jasmine-karma',
+30 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+31 verbose addNamed [ 'generator-requirejs-jasmine-karma', '0.1.3' ]
+32 verbose addNamed [ '0.1.3', '0.1.3' ]
+33 silly lockFile 7bb7f744-or-requirejs-jasmine-karma-0-1-3 generator-requirejs-jasmine-karma@0.1.3
+34 verbose lock generator-requirejs-jasmine-karma@0.1.3 /Users/cybind/.npm/7bb7f744-or-requirejs-jasmine-karma-0-1-3.lock
+35 silly lockFile 7bb7f744-or-requirejs-jasmine-karma-0-1-3 generator-requirejs-jasmine-karma@0.1.3
+36 silly lockFile 7bb7f744-or-requirejs-jasmine-karma-0-1-3 generator-requirejs-jasmine-karma@0.1.3
+37 silly lockFile c681dc45-enerator-requirejs-jasmine-karma generator-requirejs-jasmine-karma@
+38 silly lockFile c681dc45-enerator-requirejs-jasmine-karma generator-requirejs-jasmine-karma@
+39 silly resolved [ { name: 'generator-requirejs-jasmine-karma',
+39 silly resolved     version: '0.1.3',
+39 silly resolved     description: 'A generator for yeoman (RequireJS, Jasmine, Karma)',
+39 silly resolved     keywords: [ 'yeoman-generator' ],
+39 silly resolved     homepage: 'https://github.com/aleksandara/yeoman-generator-requirejs-jasmine-karma',
+39 silly resolved     bugs: { url: 'https://github.com/aleksandara/yeoman-generator-requirejs-jasmine-karma/issues' },
+39 silly resolved     author:
+39 silly resolved      { name: 'aleksandara',
+39 silly resolved        email: 'aleksandara@gmail.com',
+39 silly resolved        url: 'https://github.com/aleksandara' },
+39 silly resolved     main: 'app/main.js',
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'https://github.com/aleksandara/yeoman-generator-requirejs-jasmine-karma.git' },
+39 silly resolved     scripts: { test: 'mocha' },
+39 silly resolved     dependencies: { 'yeoman-generator': '~0.13.4', chalk: '~0.2.0' },
+39 silly resolved     devDependencies: { mocha: '~1.12.1' },
+39 silly resolved     engines: { node: '>=0.8.0' },
+39 silly resolved     licenses: [ [Object] ],
+39 silly resolved     gitHead: 'e02d02fa03c26765b5712b1d9f18a47597858318',
+39 silly resolved     _id: 'generator-requirejs-jasmine-karma@0.1.3',
+39 silly resolved     _shasum: 'ae1700a0799e690392f937788c02401b6b25a61c',
+39 silly resolved     _from: 'generator-requirejs-jasmine-karma@',
+39 silly resolved     _npmVersion: '1.4.13',
+39 silly resolved     _npmUser: { name: 'aleksandara', email: 'aleksandara@gmail.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: 'ae1700a0799e690392f937788c02401b6b25a61c',
+39 silly resolved        tarball: 'http://registry.npmjs.org/generator-requirejs-jasmine-karma/-/generator-requirejs-jasmine-karma-0.1.3.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/generator-requirejs-jasmine-karma/-/generator-requirejs-jasmine-karma-0.1.3.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install generator-requirejs-jasmine-karma@0.1.3 into /usr/local/lib
+41 info installOne generator-requirejs-jasmine-karma@0.1.3
+42 verbose lib/node_modules/generator-requirejs-jasmine-karma unbuild
+43 verbose tar unpack /Users/cybind/.npm/generator-requirejs-jasmine-karma/0.1.3/package.tgz
+44 silly lockFile 9ab7a32b-enerator-requirejs-jasmine-karma tar:///usr/local/lib/node_modules/generator-requirejs-jasmine-karma
+45 verbose lock tar:///usr/local/lib/node_modules/generator-requirejs-jasmine-karma /Users/cybind/.npm/9ab7a32b-enerator-requirejs-jasmine-karma.lock
+46 silly lockFile 970525f7--jasmine-karma-0-1-3-package-tgz tar:///Users/cybind/.npm/generator-requirejs-jasmine-karma/0.1.3/package.tgz
+47 verbose lock tar:///Users/cybind/.npm/generator-requirejs-jasmine-karma/0.1.3/package.tgz /Users/cybind/.npm/970525f7--jasmine-karma-0-1-3-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-requirejs-jasmine-karma'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-requirejs-jasmine-karma']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/generator-requirejs-jasmine-karma',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/generator-requirejs-jasmine-karma',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.0.0
+52 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-requirejs-jasmine-karma"
+53 error cwd /Users/cybind/Projects/github/responsive-calendar
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/generator-requirejs-jasmine-karma
+57 error fstream_path /usr/local/lib/node_modules/generator-requirejs-jasmine-karma
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-requirejs-jasmine-karma'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]
